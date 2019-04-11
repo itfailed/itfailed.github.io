@@ -1,7 +1,7 @@
 
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+    max-width:100%;
+    overflow-x:hidden;
 }
 a {
 	align:center;
@@ -46,7 +46,7 @@ hr {
 }
 
 #header {
-	background-image: linear-gradient(to right, #1a2a6c, #b21f1f, orange);
+	background-image:linear-gradient(to right, #1a2a6c, #b21f1f, orange);
 	padding-top:12%;
 	padding-bottom:12%;
 }
