@@ -1,5 +1,8 @@
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 a {
 	align:center;
 	padding-left:20px;
@@ -8,6 +11,9 @@ a {
 
 body {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+
 }
 
 #button {
@@ -38,3 +44,35 @@ hr {
 	width:100%;
 	color:#E0E4E7;
 }
+
+#header {
+	background-image: linear-gradient(to right, #1a2a6c, #b21f1f, orange);
+	padding-top:12%;
+	padding-bottom:12%;
+}
+
+#header_text {
+	font-size:100px;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	color:white;
+}
+
+#nav {
+	position:fixed;
+	background-color:white;
+	width:100%;
+	padding-left:20px;
+}
+
+td {
+		font-family:"Trebuchet MS", Helvetica, sans-serif;
+		margin:0px;
+		padding:0px;
+}
+
+#p {
+	width:50%;
+	 wrap-word:break-word;
+} 
