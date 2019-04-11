@@ -31,3 +31,8 @@ table {
 #button:hover {
 	background-color:#C8CBD0; 
 }
+
+hr {
+	width:100%;
+	color:#E2E3E5;
+}
