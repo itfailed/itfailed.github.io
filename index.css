@@ -4,9 +4,8 @@ html, body {
     overflow-x:hidden;
 }
 a {
-	align:center;
-	padding-left:20px;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:22px;
 }
 
 body {
@@ -76,3 +75,16 @@ td {
 	width:50%;
 	 wrap-word:break-word;
 } 
+
+#special_button {
+		margin-top:20px;
+		margin-bottom:20px;
+		padding-right:40px;
+		padding-left:40px;
+		padding-top:15px;
+		padding-bottom:15px;
+		background-color:#6699ff;
+		color:black;
+		border:none;
+		font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
