@@ -17,8 +17,10 @@ body {
 		padding-left:40px;
 		padding-top:15px;
 		padding-bottom:15px;
-		background-color:#E2E3E5;
+		background-color:#E0E4E7;
 		color:black;
+		border:none;
+		font-family:"Trebuchet MS", Helvetica, sans-serif;
 	}
 
 table {
@@ -34,5 +36,5 @@ table {
 
 hr {
 	width:100%;
-	color:#E2E3E5;
+	color:#E0E4E7;
 }
