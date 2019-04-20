@@ -1,44 +1,39 @@
-
 html, body {
-    max-width:100%;
-    overflow-x:hidden;
+	max-width:100%;
+}
+html, body, a, #button, td {
+	overflow-x:hidden;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 a {
-	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	font-size:22px;
 }
-
 body {
-	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	margin:0px;
 	padding:0px;
 
 }
 
 #button {
-		margin-top:20px;
-		margin-bottom:20px;
-		padding-right:40px;
-		padding-left:40px;
-		padding-top:15px;
-		padding-bottom:15px;
-		background-color:#E0E4E7;
-		color:black;
-		border:none;
-		font-family:"Trebuchet MS", Helvetica, sans-serif;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-right:40px;
+	padding-left:40px;
+	padding-top:15px;
+	padding-bottom:15px;
+	background-color:#E0E4E7;
+	color:black;
+	border:none;
 	}
-
+#button:hover {
+	background-color:#C8CBD0; 
+}
 table {
 	margin-left:100px;
 	margin-right:100px;
 	padding-top:20px;
 	padding-bottom:50px;
 }
-
-#button:hover {
-	background-color:#C8CBD0; 
-}
-
 hr {
 	width:100%;
 	color:#E0E4E7;
@@ -66,25 +61,11 @@ hr {
 }
 
 td {
-		font-family:"Trebuchet MS", Helvetica, sans-serif;
-		margin:0px;
-		padding:0px;
+	margin:0px;
+	padding:0px;
 }
 
 #p {
 	width:50%;
 	 wrap-word:break-word;
 } 
-
-#special_button {
-		margin-top:20px;
-		margin-bottom:20px;
-		padding-right:40px;
-		padding-left:40px;
-		padding-top:15px;
-		padding-bottom:15px;
-		background-color:#6699ff;
-		color:black;
-		border:none;
-		font-family:"Trebuchet MS", Helvetica, sans-serif;
-}
