@@ -33,6 +33,7 @@ table {
 	margin-right:100px;
 	padding-top:20px;
 	padding-bottom:50px;
+	table-layout:fixed;
 }
 hr {
 	width:100%;
