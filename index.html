@@ -11,7 +11,8 @@
 <head> 
 	<title>IXL | Math, Language Arts, Science, Social Studies, and Spanish</title>
 	<link href="https://www.ixl.com/ixl-favicon.png" rel="shortcut icon" type="image/x-icon"> 
-	<link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css">
+
 </head>
 <div id="nav">
 <h1>ItFailed</h1>
@@ -53,7 +54,24 @@
 	</tbody>
 
 </table>
-	<form method="get" action="/html_files/surviv.html" align="center" width="20%"><button type="submit" id="button">Surviv.io</button></form>
+  <form method="get" action="/html_files/surviv.html" align="center" width="20%"><button type="submit" id="button">Surviv.io</button></form>
+  <form name="submit-to-google-sheet">
+    <input name="email" type="name" placeholder="name" required>
+    <input name="response" type="response" placeholder="response" required>
+    <button type="submit">Send</button>
+  </form>
+
+  <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbySyZTbfrP1j2RdD2L0CQsHIC_WM4-PYIHSUssoGfD2fCvOp9o/exec>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </body>
 </html>
 

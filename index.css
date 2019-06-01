@@ -68,5 +68,5 @@ td {
 
 #p {
 	width:50%;
-	 wrap-word:break-word;
+	 word-wrap:break-word;
 } 
