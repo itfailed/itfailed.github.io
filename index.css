@@ -1,6 +1,5 @@
 html, body {
 	max-width:100%;
-	overflow: scroll;
 }
 html, body, a, #button, td {
 	overflow-x:hidden;
