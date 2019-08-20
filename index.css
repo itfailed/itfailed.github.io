@@ -75,7 +75,7 @@ td {
 	 word-wrap:break-word;
 } 
 
-#contact_form {
+#form-elements{
 	width:100%;
 	padding-bottom: 100px;
 	margin-top:40px;
@@ -132,10 +132,12 @@ td {
 	background-color:#E0E4E7;
 	border-radius: 30px;
 	font-weight: bold;
+	color:black;
 }
 
 #contact_form_send:hover {
 	background: #C8CBD0;
+	color:black;
 }
 
 #message:hover, #contact_form_email:hover,#contact_form_name:hover  {
@@ -147,4 +149,14 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+}
+
+#successMessage {
+	background-color:#2b78dd;
+	width:100%;
+	color:white;
+	font-size:40px;
+	margin:0px;
+	padding-bottom:100px;
+	font-weight: bold;
 }
