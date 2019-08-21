@@ -56,30 +56,34 @@
 </table>
   <form method="get" action="/html_files/surviv.html" align="center" width="20%"><button type="submit" id="button">Surviv.io</button></form>
 </hr>
+
+<!---form -->
   <div id="form-elements" align="center">
   <form action="https://script.google.com/macros/s/AKfycbzYD8yelDWNnf41rlBXWodBx-ONPTw7JhgAvHXUcuhtEQ2Eo7Li/exec" method="POST" class="gform" data-email="itfailed0x1@gmail.com" id="theForm">
     <h1 style=color:white>Suggestions or Contact Form</h1>
-    <input type="text" name="name" id="contact_form_name" placeholder="Name" autocomplete="off"/>
-    <input type="email" name="email" id="contact_form_email" placeholder="Email" autocomplete="off"/>
+    <input type="text" name="name" id="contact_form_name" placeholder="Name" autocomplete="off" required/>
+    <input type="email" name="email" id="contact_form_email" placeholder="Email" autocomplete="off" required/>
   </br>
-    <textarea id="message" name="message" placeholder="Message" style="height:200px" autocomplete="off"></textarea>
+    <textarea id="message" name="message" placeholder="Message" style="height:200px" autocomplete="off" required></textarea>
   </br>
     <button id="contact_form_send">Send</button>
   </div>
     <p style="display:none" id="successMessage" align="center">Thanks for submitting a form</p>
   </form>
+  
   <script type="text/javascript">
     var theSubmitButton = document.getElementById('contact_form_send');
     theSubmitButton.onclick = function() {
-        var theFormItself = 
-            document.getElementById('theForm');
-        theFormItself.style.display = 'none';
-        var theSuccessMessage = 
-            document.getElementById('successMessage');  
-        theSuccessMessage.style.display = 'block';          
-    }
+          var theFormItself = 
+              document.getElementById('theForm');
+          theFormItself.style.display = 'none';
+          var theSuccessMessage = 
+              document.getElementById('successMessage');  
+          theSuccessMessage.style.display = 'block';       
+          
+        }   
 </script>
-
+<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
 </body>
 </html>
 <!-- Boxes are superior in every way                                                                                                                                                                
