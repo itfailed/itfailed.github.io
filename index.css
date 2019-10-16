@@ -197,7 +197,7 @@ button:focus {
 #sendpaste {
 	margin-top:25px;
 	margin-left:45%;
-	margin-bottom:10%;
+	margin-bottom:13%;
 	padding-top:17px;
 	padding-right:70px;
 	padding-left:70px;
@@ -211,7 +211,7 @@ button:focus {
 }
 
 #headerlauncher {
-	background-image:linear-gradient(to right, #1a2a6c, #b21f1f, orange);
+	background-image:linear-gradient(to right, #F3904F, #3B4371);
 	padding-top:8%;
-	padding-bottom:4%;
+	padding-bottom:6%;
 }
