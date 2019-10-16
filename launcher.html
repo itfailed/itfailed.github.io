@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Make a file</title>
+</head>
+<style>
+
+</style>
+<link rel="stylesheet" href="index.css">
+<body>
+	<div id="nav">
+	<table width="100%">
+		<tr>
+			<td><h1>ItFailed</h1></td>
+			<td style="float:right; padding-right: 50px;" id="navtd"><a href="https://itfailed.github.io/launcher.html" id="nava">Launcher</a></td>
+			<td style="float:right; padding-right: 50px" id="navtd"><a href="https://itfailed.github.io" id="nava">Home</a></td>
+		</tr>
+	</table>
+	</div>
+	<div id="headerlauncher">
+	<p id="header_text">Launcher</p>
+     </div>
+	<p align="center" style="font-size: 20px;">This is the place where you can make your own links. All you need to do is paste the link in.</p>
+	<p align="center" style="font-size: 16px;">If the link does not work, it is the website you are going to fault. Some websites don't allow iframes and because of that some websites will not load. So if it dosen't work, don't blame me.</p>
+	<input id="url" name="url" placeholder="url" type="url" autocomplete="off" required/>
+    <button id="sendpaste" onclick="Make_html()">Send</button>
+
+      <script type="text/javascript">
+      	function Make_html() {
+      	var newpart = document.getElementById('url').value;
+      	if( newpart == '') {
+      		alert('Please enter a valid URL');
+      	} else { 
+      	var newhtml = '<html><style>body{ margin:0;} </style><body><iframe src="' + newpart + '"style="padding: 0px; margin: 0px; display: block; border: none; height: 100vh; width: 100vw;"></iframe></body></html>';
+      	var w = window.open("", "_self");
+      	w.document.write(newhtml);
+      }
+      }
+     </script>
+     <!---form -->
+  <div id="form-elements" align="center">
+  <form action="https://script.google.com/macros/s/AKfycbzYD8yelDWNnf41rlBXWodBx-ONPTw7JhgAvHXUcuhtEQ2Eo7Li/exec" method="POST" class="gform" data-email="itfailed0x1@gmail.com" id="theForm">
+    <h1 style=color:white>Suggestions</h1>
+  </br>
+    <textarea id="message" name="message" placeholder="Message" style="height:250px" autocomplete="off" required></textarea>
+  </br>
+    <button id="contact_form_send">Send</button>
+  </div>
+    <p style="display:none" id="successMessage" align="center">Thanks for submitting a form</p>
+  </form>
+  
+  <script type="text/javascript">
+    var theSubmitButton = document.getElementById('contact_form_send');
+    theSubmitButton.onclick = function() {
+          var theFormItself = 
+              document.getElementById('theForm');
+          theFormItself.style.display = 'none';
+          var theSuccessMessage = 
+              document.getElementById('successMessage');  
+          theSuccessMessage.style.display = 'block';       
+          
+        }   
+</script>
+<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+</body>
+</body>
