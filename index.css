@@ -184,7 +184,7 @@ button:focus {
 	margin-right:20%;
 	padding-left:10px;
 	padding-bottom: 10px;
-	border-radius:20px;
+	border-radius:16px;
 	width:60%;
 	box-align:center;
 	font-size:17px;
@@ -208,6 +208,10 @@ button:focus {
 	border-radius: 30px;
 	font-weight: bold;
 	color:black;
+}
+
+#sendpaste:hover, #url:hover {
+	background-color:#C8CBD0;
 }
 
 #headerlauncher {
