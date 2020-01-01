@@ -179,3 +179,7 @@ button:focus {
 #links {
 	padding-top:30px;
 }
+
+#alinks:hover {
+	color:#3377ff;
+}
