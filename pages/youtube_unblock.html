@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico" rel="shortcut icon" type="image/x-icon"> 
+  <link rel="stylesheet" href="index.css">
+</head>		
+
+<!DOCTYPE html>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138128176-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-138128176-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<head> 
+  <title>My Drive - Google Drive</title>
+  <link href="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico" rel="shortcut icon" type="image/x-icon"> 
+  <link rel="stylesheet" href="css/youtube_unblock.css">
+  <meta name="google-site-verification" content="_BE9XyaiygGUm3P0ndIHpMb-HfPX4VGXeQ-GGHQHJIk" />
+</head>
+  <div id="nav">
+  <table width="100%">
+    <tr>
+      <td><h1>ItFailed</h1></td>
+      <td style="float:right; padding-right: 50px;" id="navtd"><a href="http://www.itfailed.cf/pages/about.html" id="nava">About</a></td>
+      <td style="float:right; padding-right: 50px;" id="navtd"><a href="http://www.itfailed.cf/pages/youtube_unblock.html" id="nava">YT unblocker</a></td>
+      <td style="float:right; padding-right: 50px;" id="navtd"><a href="http://www.itfailed.cf/pages/proxy.html" id="nava">Proxies</a></td>
+      <td style="float:right; padding-right: 50px;" id="navtd"><a href="http://www.itfailed.cf" id="nava">Home</a></td>
+    </tr>
+  </table>
+  </div>
+<body>
+  <div id="header">
+  <p id="header_text">Youtube Unblocker</p>
+</div>
+</body>
+</html>	
+	<script>
+			 function getKey(stuff)
+			 {
+			 	stuff = stuff || window.event;
+			 	if(stuff.keyCode == 13){document.getElementById('The_Unblock_Button').click();return false;}
+			 	return true;
+			 }
+			 function Make_Link() {
+			 var New_Pasted_Part = document.getElementById('grabId').value;
+			 var YouTube_Link_1 = "youtube";
+			 var YouTube_Link_2 = "https://youtu.be/";
+			 var YouTube_Link_3 = "http://youtu.be/";
+			 var YouTube_Link_4 = "youtu.be/";
+			 if (New_Pasted_Part.indexOf(YouTube_Link_1) >= 0) {
+			 var string = New_Pasted_Part.split('=');
+			 New_Pasted_Part = string[1];}
+			 if (New_Pasted_Part.indexOf(YouTube_Link_2) >= 0) {
+			 var string = New_Pasted_Part.split('/');
+			 New_Pasted_Part = string[3];}
+			 if (New_Pasted_Part.indexOf(YouTube_Link_3) >= 0) {
+			 var string = New_Pasted_Part.split('/');
+			 New_Pasted_Part = string[3];}
+			 if (New_Pasted_Part.indexOf(YouTube_Link_4) >= 0) {
+			 var string = New_Pasted_Part.split('/');
+			 New_Pasted_Part = string[3];}
+			 theId = New_Pasted_Part.replace("&feature", '');
+			 New_Pasted_Part = theId.match(/.{1,11}/g);
+			 var newLink = 'http://www.youtube-nocookie.com/embed/' + New_Pasted_Part[0] + '';
+			 document.getElementById("player").src = "" + newLink;
+			 document.getElementById("directLink").href = "" + newLink;
+			 }
+			</script>
+			<div align="center" style="padding-top: 50px;">
+			<p style="font-size: 20px;">Don't forget to click the gray shield next to the bookmark bar or the YouTube video will not load properly </p>
+			<table align="center" width="80%">
+				<tr>
+				<td width=60%><input id="grabId" name="grabId" onkeypress="return getKey(event);" placeholder="Paste the YouTube Link here" spellcheck="false" type="text"></br></td>
+            	<td width=40%><button id="The_Unblock_Button" onclick="Make_Link()"><b>Click to Unblock</b></button></td>
+       			</tr>
+        	</table>
+			<p><iframe allowfullscreen  id="player" name="player" src="https://www.youtube-nocookie.com/embed/" width="960" height="540"></iframe></p>
+			<div align="center">
+			<p align="center">Property of The Mayo Foundation &copy</p>
+</html>

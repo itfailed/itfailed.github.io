@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138128176-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-138128176-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<head> 
+  <title>My Drive - Google Drive</title>
+  <link href="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico" rel="shortcut icon" type="image/x-icon"> 
+  <link rel="stylesheet" href="css/proxy.css">
+  <meta name="google-site-verification" content="_BE9XyaiygGUm3P0ndIHpMb-HfPX4VGXeQ-GGHQHJIk" />
+</head>
+  <div id="nav">
+  <table width="100%">
+    <tr>
+      <td><h1>ItFailed</h1></td>
+      <td style="float:right; padding-right: 50px;" id="navtd"><a href="http://www.itfailed.cf/pages/about.html" id="nava">About</a></td>
+      <td style="float:right; padding-right: 50px;" id="navtd"><a href="http://www.itfailed.cf/pages/youtube_unblock.html" id="nava">YT unblocker</a></td>
+      <td style="float:right; padding-right: 50px;" id="navtd"><a href="http://www.itfailed.cf/pages/proxy.html" id="nava">Proxies</a></td>
+      <td style="float:right; padding-right: 50px;" id="navtd"><a href="http://www.itfailed.cf" id="nava">Home</a></td>
+    </tr>
+  </table>
+  </div>
+<body>
+  <div id="header">
+  <p id="header_text">Proxies</p>
+  <p align="center" style="font-size: 30px;">Freedom on the fly</p>
+</div>
+<div id="tabs" align="center">
+  <button class="tablinks" onclick="openBrowser(event, 'Node1')">Node Unblocker #1</br>Status: <span style="color:green;">UP</span></button>
+  <button class="tablinks" onclick="openBrowser(event, 'Node2')">Node Unblocker #2</br>Status: <span style="color:green;">UP</span></button>
+  <button class="tablinks" onclick="openBrowser(event, 'Bing')">Bing Browser</br>Status: <span style="color:green;">UP</span></button>
+</div>
+
+<div id="Node1" class="proxies" align="center">
+<h1 class="proxyHeading">Node Unblocker #1</h1>
+<table align="center" width="100%">
+  <tr>
+    <td width="70%"><input class="url" name="url" placeholder="Enter a URL" autocomplete="off" required id="node1text"></input></td>
+    <td width="30%"><button class="send" id="Node1Send" onclick="Node1()">Go</button></td>
+  </tr>
+</table>
+<p style="padding-top: 20px;">- Bypasses network blocks and Securly blocking</p>
+<p>- Not a browser, Only enter a URL</p>
+<p>- Used to unblock most sites</p>
+</div>
+
+<div id="Node2" class="proxies" align="center">
+<h1 align="center" class="proxyHeading">Node Unblocker #2</h1>
+<table align="center" width="100%">
+  <tr>
+    <td width="70%"><input class="url" name="url" placeholder="Enter a URL" autocomplete="off" required id="node2text"></input></td>
+    <td width="30%"><button class="send" id="Node2Send" onclick="Node2()">Go</button></td>
+  </tr>
+</table>
+<p style="padding-top: 20px;">- Bypasses network blocks and Securly blocking</p>
+<p>- Not a browser, Only enter a URL</p>
+<p>- Used to unblock most sites</p>
+</div>
+
+<div id="Bing" class="proxies" align="center">
+<h1 align="center" class="proxyHeading">Bing Browser</h1>
+<table align="center" width="100%">
+  <tr>
+    <td width="70%"><input class="url" name="url" placeholder="Enter a search" autocomplete="off" required id="Bingtext"></input></td>
+    <td width="30%"><button class="send" id="BingBtn" onclick="Bing()">Go</button></td>
+  </tr>
+</table>
+<p style="padding-top: 20px;">- Bypasses ONLY Securly blocking, not network blocking</p>
+<p>- Can unblock SOME sites, the node unblockers cannot</p>
+<p>- A browser, not just a proxy</p>
+<p>- Can play nitrotype</p>
+</div>
+
+<script>
+  function openBrowser(evt, Name)
+  {
+    var i, tablinks, proxies;
+
+    proxies = document.getElementsByClassName("proxies");
+    for (i = 0; i < proxies.length; i++) {
+      proxies[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(Name).style.display = "block";
+    evt.currentTarget.className += " active";
+
+  }
+
+  function Node1()
+  {
+    var url = document.getElementById("node1text").value;
+    window.location = 'http://proxy.itfailed.cf/proxy/' + url;
+  }
+
+  function Node2()
+  {
+    var url = document.getElementById("node2text").value;
+    window.location = 'http://proxy2.itfailed.cf/proxy/' + url;
+  }
+
+  function Bing() {
+
+    var newpart = document.getElementById('Bingtext').value;
+    var framesrc = "https://www.bing.com/search?q=" + newpart;
+    var newhtml = '<html><style>body{ margin:0;} </style><body><iframe src="' + framesrc + '"style="padding: 0px; margin: 0px; display: block; border: none; height: 100vh; width: 100vw;"></iframe></body></html>';
+    var w = window.open("", "_self");
+    w.document.write(newhtml);
+  }
+  var node1 = document.getElementById("node1text"); 
+  var node2 = document.getElementById("node2text");
+  var bing  = document.getElementById("Bingtext");
+
+ node1.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("Node1Send").click();
+  }
+});
+
+  node2.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("Node2Send").click();
+  }
+});
+
+  bing.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("BingBtn").click();
+  }
+});
+</script>
+</body>
+</html>
