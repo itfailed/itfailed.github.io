@@ -40,7 +40,7 @@ body {
 	background-color:#3b3564;
 	width:100%;
 	padding-left:20px;
-	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	
 }
 
@@ -59,9 +59,8 @@ td {
 #nava {
 	text-decoration: none;
 	color:white;
-	font-weight: bold;
 	font-size:21px;
-	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 #nava:hover {
 	color:#847979;
@@ -69,7 +68,7 @@ td {
 
 #navtd {
 	margin-top:30px;
-	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 
 
