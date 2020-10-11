@@ -74,14 +74,13 @@ hr {
 }
 .cardElements {
 	width:100%;
-	margin:auto;
 	margin-top:5%;
 	margin-bottom:100px;
 
 }
 .card {
 	background:white;
-	colro:black;
+	color:black;
 	width:20%;
 	height:27%;
 	padding-top: 20px; 
