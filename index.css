@@ -4,9 +4,9 @@
 }
 html, body {
 	max-width:100%;
-	background-color: #1A2632;
+	background-color: #2E294E;
 }
-html, body, a, #button, td {
+html, body, a, #button, td, button{
 	overflow-x:hidden;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	color:white;
@@ -66,12 +66,59 @@ hr {
 
 #nav {
 	position:fixed;
-	background-color:#233447;
+	background-color:#3b3564;
 	width:100%;
 	padding-left:20px;
-	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	
 }
+.cardElements {
+	width:100%;
+	margin:auto;
+	margin-top:5%;
+	margin-bottom:100px;
+
+}
+.card {
+	background:white;
+	colro:black;
+	width:13.5%;
+	height:27%;
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left:15%;
+	margin-bottom:300px;
+	margin-top:10px;
+	float:left;
+	border:none;
+	border-radius: 50px;
+	border-radius: 50px;
+	background: #ffffff;
+	box-shadow:  20px 20px 60px #141221, 
+	             -20px -20px 60px #141221;
+}
+.card:hover{
+	margin-top:0px;
+	margin-bottom: 310px;
+	background:#d9d9d9; 
+}
+p.card {
+	color:black;
+}
+button.card:active {
+	border-radius: 50px;
+	background: #ffffff;
+	box-shadow: inset 20px 20px 60px #b3b3b3, 
+	            inset -20px -20px 60px #b3b3b3;
+}
+
+.cardContainer {
+	color:black;
+	font-weight:bold;
+}
+
 
 td {
 	margin:0px;
@@ -88,7 +135,8 @@ td {
 	width:100%;
 	padding-bottom: 100px;
 	margin-top:40px;
-	background-color:#1A2632;
+	padding-right: 200px;
+	background-color:#2E294E;
 	padding-top:75px;
 }
 #message {
@@ -111,14 +159,14 @@ td {
 	padding-bottom:17px;
 	font-size: 17px;
 	border-style: none;
-	background-color:#0366B6;
+	background-color:#06BEE1;
 	border-radius: 30px;
 	font-weight: bold;
 	color:white;
 }
 
 #contact_form_send:hover {
-	background: #1a66ff;
+	background: #037d96;
 	color:white;
 }
 
@@ -134,12 +182,11 @@ button:focus {
 }
 
 #successMessage {
-	background-color:#1A2632;
+	background-color:#2e3d6b;
 	width:100%;
 	color:white;
 	font-size:40px;
-	margin:0px;
-	padding-bottom:100px;
+	padding-top:700px;
 	font-weight: bold;
 }
 
@@ -147,17 +194,16 @@ button:focus {
 #nava {
 	text-decoration: none;
 	color:white;
-	font-weight: bold;
 	font-size:21px;
-	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 #nava:hover {
-	text-decoration: underline;
+	color:#847979;
 }
 
 #navtd {
 	margin-top:30px;
-	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 
 #links {

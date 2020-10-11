@@ -4,7 +4,7 @@
 }
 html, body {
 	max-width:100%;
-	background-color: #1A2632;
+	background-color: #2E294E;
 }
 html, body, a, #button, td {
 	overflow-x:hidden;
@@ -19,20 +19,6 @@ body {
 }
 
 
-#button {
-	margin-top:20px;
-	margin-bottom:20px;
-	padding-right:40px;
-	padding-left:40px;
-	padding-top:15px;
-	padding-bottom:15px;
-	background-color:#3377ff;
-	color:white;
-	border:none;
-	}
-#button:hover {
-	background-color:#1a66ff; 
-}
 #table {
 	margin-left:100px;
 	margin-right:100px;
@@ -63,10 +49,10 @@ hr {
 
 #nav {
 	position:fixed;
-	background-color:#233447;
+	background-color:#3b3564;
 	width:100%;
 	padding-left:20px;
-	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	
 }
 
@@ -83,15 +69,15 @@ td {
 	color:white;
 	font-weight: bold;
 	font-size:21px;
-	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 #nava:hover {
-	text-decoration: underline;
+	color:#847979;
 }
 
 #navtd {
 	margin-top:30px;
-	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 
 #links {
