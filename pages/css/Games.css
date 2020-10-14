@@ -91,6 +91,6 @@ td {
 	margin-left:100px;
 	margin-right:100px;
 	padding-top:50px;
-	padding-bottom:50px;
+	padding-bottom:0px;
 	table-layout:fixed;
 }
